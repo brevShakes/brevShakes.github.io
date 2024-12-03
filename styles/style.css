@@ -1,7 +1,7 @@
 html {
     font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
     font-family: "Josefin Sans", sans-serif;
-    background-color: #ffffff;
+    background-color: #f3deaf;
   }
 
   h1 {
@@ -10,8 +10,15 @@ html {
     font-family: "Spectral", serif;
     margin: 0;
     padding: 20px 0;
-    color: #ffd700;
+    color: #ba7336;
     text-shadow: 3px 3px 1px black;
+  }
+
+  h2 {
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-align: center;
   }
   
   p,
@@ -25,44 +32,42 @@ html {
   body {
     width: 1200px;
     margin: 0 auto;
-    background-color: #5B0D0E;
+    background-color: #531412;
     padding: 0 20px 20px 20px;
     border: 5px solid black;
   }
 
   a:link {
-    color: #ffffff;
+    color: #f3deaf;
   }
 
   a:visited {
-    color: #858585;
+    color: #ba7336;
   }
 
-  img{
+  .center{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
   }
 
-  .center{
-    text-align: center;
-  }
-
   header img {
     display: block;
-    height: 60px;
-    padding-top: 20.15px;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   nav {
-    height: 50px;
+    height: 25px;
     flex: 100%;
     display: flex;
   }
   
   nav ul {
     padding: 0;
+    padding-bottom: 100px;
     list-style-type: none;
     flex: 2;
     display: flex;
@@ -81,12 +86,26 @@ html {
     line-height: 1.7;
     text-transform: uppercase;
     text-decoration: none;
-    color: black;
+    color: #ffffff;
   
   }
 
   header {
     margin-bottom: 10px;
-    display: flex;
+    /* display: flex; */
     flex-flow: row wrap;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 15px 40px;
+  }
+
+  img{
+    max-width: 100%;
+    height: auto;
   }
