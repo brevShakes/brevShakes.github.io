@@ -30,7 +30,7 @@ html {
   }
 
   body {
-    width: 1200px;
+    width: 90%;
     margin: 0 auto;
     background-color: #531412;
     padding: 0 20px 20px 20px;
@@ -43,6 +43,10 @@ html {
 
   a:visited {
     color: #ba7336;
+  }
+
+  a:hover{
+    color: grey;
   }
 
   .center{
@@ -102,10 +106,14 @@ html {
   
   .column {
     flex: 50%;
-    padding: 15px 40px;
+    text-align: center;
   }
 
   img{
     max-width: 100%;
     height: auto;
+  }
+
+  nav + img{
+    margin-top: 10px;
   }
