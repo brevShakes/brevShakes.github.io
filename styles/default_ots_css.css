@@ -1,0 +1,126 @@
+:root {
+  --onstage-primary-1-main: #000000; /* Primary color of main components */
+  --onstage-primary-2-main: #C41033; /* Secondary color of components */
+  --onstage-primary-3-main: #0084A1; /* Tertiary color of components */
+
+  --onstage-font-size: 16px;
+  --onstage-font-line-height: 150%;
+  --onstage-font-weight: 400;
+  --onstage-font-family: 'Open Sans', sans-serif; /* Font style of the entire widget */
+  --onstage-font-family-src-url: url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap'); /* Font style src url of the entire widget */
+  --onstage-font-family-secondary: 'Open Sans', sans-serif; /* Secondary Font style of the entire widget */
+  --onstage-font-family-medium: 'Open Sans', sans-serif; /* Optional Medium Font style of the entire widget */
+  --onstage-font-family-bold: 'Open Sans', sans-serif; /* Optional Bold Font style for headers of the entire widget */
+  --onstage-font-family-header: var (--onstage-font-family); /* Font of the headers (top bar) */
+  --onstage-font-color-primary: #0084A1; /* Primary font color of the entire widget */
+  --onstage-text-color: #000000; /* Text color of the entire widget */
+  --onstage-text-disabled-color: #D9D9D9; /* Text disabled color of the entire widget */
+
+  --onstage-background-color: #ffffff; /* Background color of the entire widget */
+  --onstage-border-color: #E0E0E0; /* Border color of the entire widget */
+  --onstage-active-border-color: #000; /* Border color of active inputs and dropdowns */
+
+  --onstage-widget-min-height: 80vh; /* Min height of the widget */
+
+  --onstage-button-bg-white: #ffffff; /* Background color of buttons in the entire widget */
+  --onstage-button-bg-primary: var(--onstage-primary-1-main); /* Primary button background color for all buttons in the entire widget */
+  --onstage-button-font-primary: #ffffff; /* Button font color for all buttons in the entire widget */
+  --onstage-button-border-primary: 1px solid var(--onstage-button-bg-primary);
+  --onstage-button-bg-secondary: #ffffff; /* Secondary button background color for all buttons in the entire widget */
+  --onstage-button-bg-gray: #ffffff; /* Gray button background color for all buttons in the entire widget */
+  --onstage-button-font-secondary: #757575; /* Secondary button font color for all buttons in the entire widget */
+  --onstage-button-border-secondary: #757575; /* Secondary button border color for all buttons in the entire widget */
+  --onstage-button-font-gray: #757575; /* Gray button font color for all buttons in the entire widget */
+  --onstage-button-border-gray: #757575; /* Gray button border color for all buttons in the entire widget */
+  --onstage-button-bg-disabled: #D9D9D9; /* Disabled button background color for all buttons in the entire widget */
+  --onstage-button-font-disabled: #D9D9D9; /* Disabled button font color for all buttons in the entire widget */
+  --onstage-button-border-radius: 100px;
+  
+  /* Widget Calendar View Styles */
+  --onstage-calendar-selected-day-bg-color: var(--onstage-primary-1-main); /* Calendar selected day background color */
+  --onstage-calendar-table-header-font-weight: 400; /* Calendar table header font weight */
+  --onstage-calendar-day-font-weight: 400; /* Calendar days font weight */
+  --onstage-calendar-dropdown-background-color: var(--onstage-background-color); /* Background color of multiple select dropdown */
+  --onstage-calendar-dropdown-text-color: #000;
+  --onstage-calendar-dropdown-hover-background-color: #F0F1F0;
+  --onstage-calendar-dropdown-active-background-color: #FAFAFA;
+  --onstage-calendar-dropdown-mixed-minus-mark-color: var(--onstage-calendar-dropdown-background-color);
+  --onstage-calendar-dropdown-checkbox-border-color: var(--onstage-calendar-dropdown-text-color);
+  --onstage-calendar-today-circle-background-color: var(--onstage-font-color-primary);
+  --onstage-calendar-today-datetext-color: #fff;
+  --onstage-calendar-disabled-background-color: #F2F2F2; /* Background color of sold out item in calendarz */
+  --onstage-calendar-disabled-datetext-color: #999;
+  --onstage-calendar-datetext-color: #000;
+  --onstage-calendar-border-color: var(--onstage-active-border-color); /* Border color of calendar */
+
+
+  /* Table header for the calendar */
+  --onstage-calendar-day-label-bg-color: var(--onstage-background-color);
+  --onstage-calendar-day-label-text-color: #000;
+  --onstage-calendar-day-label-font: var(--onstage-font-family);
+
+  /* Widget List View Styles */
+  --onstage-list-datetext-color: var(--onstage-calendar-datetext-color);
+  --onstage-list-disabled-datetext-color: var(--onstage-calendar-disabled-datetext-color);
+
+  /* Production Carousel Styles on top of Calendar and List Views */
+  --onstage-production-carousel-arrow-buttons-bg-color: var(--onstage-button-bg-white); /* Carousel back and next arrow buttons background color */
+  --onstage-production-carousel-arrow-buttons-color: var(--onstage-primary-1-main); /* Carousel back and next arrow buttons color */
+  --onstage-production-carousel-background-color: var(--onstage-background-color);
+  --onstage-production-carousel-text-color: #000;
+  --onstage-production-carousel-link-color: var(--onstage-font-color-primary);
+  --onstage-production-carousel-font-family: var(--onstage-font-family);
+
+  /* When the widget goes full screen for Select A Time, Select Ticket Types, and Checkout */
+  --onstage-widget-bg-color: #F7F9FC; /* Background color of the entire widget (if --onstage-widget-bg-image is added this overrides the bg color) */
+  --onstage-widget-bg-image: null; /* Background image of the entire widget (this overrides the --onstage-widget-bg-color) */
+
+  --onstage-header-nav-bg-color: #ffffff; /* Header Nav background color for entire widget */
+  --onstage-header-nav-bg-image: null;
+  --onstage-header-nav-text-color: #000000; /* Header Nav text color for entire widget */
+  --onstage-header-nav-icon-color: #000000; /* Header Nav icon color for entire widget */
+  --onstage-select-a-time-selected-date-bg-color: var(--onstage-primary-1-main); /* Selected date on the Select A Time page */
+
+  /* Select tickets - ticket name, description & color */
+  --onstage-select-ticket-name-font-color: #000;
+  --onstage-select-ticket-description-font-color: #333;
+  --onstage-counter-bg-color: #fff; /* Quantity counter background  */
+  --onstage-counter-font-color: #000; /* Quantity counter font color */
+  --onstage-counter-soldout-font-color: #C9C9C9; /* Quantity counter text font color */
+  --onstage-counter-border-color: #D1D5DB; /* Border color of quantity input element */
+  --onstage-counter-disabled-color: #C9C9C9; /* +/- button stroke color for disabled state  */
+  --onstage-trash-icon-color: #616161;
+
+  /* Footer styles */
+  --onstage-footer-link-color: #0070E0; /* Link color for the footer link OnTheStage */
+  --onstage-footer-text-color: var(--onstage-text-color); /* Text color for the footer text */
+}
+
+.ots-html-font-size {
+  font-size: 100% !important;
+}
+
+/* This only applies to components with shadow: false */
+.font-semibold, .font-bold {
+  font-family: var(--onstage-font-family-bold);
+}
+
+#ots-widget-ui {
+  font-family: var(--onstage-font-family);
+  font-size: var(--onstage-font-size, 16px);
+  font-weight: var(--onstage-font-weight, 400);
+  line-height: var(--onstage-font-line-height, 150%);
+}
+
+@keyframes otsspin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ots-spin {
+  animation: otsspin 1s linear infinite;
+}

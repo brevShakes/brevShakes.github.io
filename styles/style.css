@@ -1,7 +1,8 @@
 html {
-    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
+    font-size: 10px;
     font-family: "Josefin Sans", sans-serif;
     background-color: #f3deaf;
+    color: #ffffff
   }
 
   h1 {
@@ -16,24 +17,31 @@ html {
 
   h2 {
     font-size: 20px;
-    color: #ffffff;
-    letter-spacing: 1px;
+    color: #ba7336;
+    /* letter-spacing: 1px; */
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 16px;
     text-align: center;
   }
   
-  p,
-  li {
+  p, li, dl {
     font-size: 16px;
-    color: #ffffff;
-    /*line-height: 2;*/
     letter-spacing: 1px;
+    padding: 0 10px 0 10px;
+  }
+
+  dd{
+    padding-bottom: 10px;
   }
 
   body {
     width: 90%;
     margin: 0 auto;
     background-color: #531412;
-    padding: 0 20px 20px 20px;
+    /* padding: 0 20px 20px 20px; */
     border: 5px solid black;
   }
 
@@ -42,7 +50,7 @@ html {
   }
 
   a:visited {
-    color: #ba7336;
+    color: #531412;
   }
 
   a:hover{
@@ -53,20 +61,22 @@ html {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    text-align: center;
   }
 
   header img {
     display: block;
-    padding-top: 50px;
+    padding-top: 10px;
     margin-left: auto;
     margin-right: auto;
   }
   
   nav {
-    height: 25px;
+    height: 5rem;
     flex: 100%;
     display: flex;
+    padding: 5px 0px 5px;
+    background-color: #ba7336;
   }
   
   nav ul {
@@ -116,4 +126,20 @@ html {
 
   nav + img{
     margin-top: 10px;
+  }
+
+  h2 + ul{
+    text-align: center;
+    list-style-type: none;
+    list-style-position: inside;
+    padding-left: 0;
+  }
+
+  footer {
+    background-color: #ba7336;    
+    padding: 5px 0px 10px;
+  }
+
+  footer h2{
+    color:#531412;
   }
