@@ -50,11 +50,23 @@ html {
   }
 
   a:visited {
-    color: #531412;
+    color: grey;
   }
 
   a:hover{
-    color: grey;
+    color: #ffffff;
+  }
+
+  nav a:link {
+    color: #531412;
+  }
+
+  nav a:visited {
+    color: #531412;
+  }
+
+  nav a:hover{
+    color: #ffffff;
   }
 
   .center{
