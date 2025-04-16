@@ -18,7 +18,6 @@ html {
   h2 {
     font-size: 20px;
     color: #ba7336;
-    /* letter-spacing: 1px; */
     text-align: center;
   }
 
@@ -155,3 +154,32 @@ html {
   footer h2{
     color:#531412;
   }
+
+  .notes{
+    padding: 50px;
+    position: relative;
+  }
+
+  .notes h1{
+    padding: 0;
+  }
+
+  .custom-shape-divider-top-1744808848 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1744808848 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 50px;
+}
+
+.custom-shape-divider-top-1744808848 .shape-fill {
+    fill: #ba7336;
+}
